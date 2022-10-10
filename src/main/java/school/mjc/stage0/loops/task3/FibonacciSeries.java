@@ -6,13 +6,7 @@ public class FibonacciSeries {
     	int nextNumber=1;
     	for (int i = 1; i <= lastFibonacci;i++) {
     		 {
- 	           // System.out.print(previousNumber+" ");
- 	            /* On each iteration, we are assigning second number
- 	             * to the first number and assigning the sum of last two
- 	             * numbers to the second number
- 	             */
-  
-    			 System.out.println(previousNumber);
+ 	            System.out.println(previousNumber);
  	            int sum = previousNumber + nextNumber;
  	            previousNumber = nextNumber;
  	            nextNumber = sum;
